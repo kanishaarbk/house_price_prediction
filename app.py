@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load trained model
-with open("model_pickle", "rb") as f:
+with open("model.pkl", "rb") as f:
     model = pickle.load(f)
 
 st.set_page_config(page_title="House Price Prediction", page_icon="🏠")
